@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+
+<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyD4iCtE6wCRAGzvotlCurul00cbEXUwh5g",
+    authDomain: "chatapp-46e3d.firebaseapp.com",
+    databaseURL: "https://chatapp-46e3d.firebaseio.com",
+    projectId: "chatapp-46e3d",
+    storageBucket: "chatapp-46e3d.appspot.com",
+    messagingSenderId: "324857424220"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="jquery.min.js"></script>	
+</head>
+<body>
+	<h1>chatapp</h1>
+	<div id="msgList"></div>
+	<input id="newMsg"></input>
+	<button id="sendBtn">send</button>
+	<script src="main.js"></script>
+</body>
+</html>
